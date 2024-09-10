@@ -16,7 +16,7 @@ public class calc {
     System.out.println("Difference: " + subtraction(num1, num2));
     System.out.println("Product: " + multiplication(num1, num2));
     System.out.println("Quotient: " + division(num1, num2));
-    //System.out.println("Modulus: " + modulus(num1, num2));
+    System.out.println("Modulus: " + modulus(num1, num2));
 
 
     } 
