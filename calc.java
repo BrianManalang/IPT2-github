@@ -16,7 +16,7 @@ public class calc {
     System.out.println("Difference: " + subtraction(num1, num2));
     System.out.println("Product: " + multiplication(num1, num2));
     System.out.println("Quotient: " + division(num1, num2));
-    System.out.println("Modulus: " + modulus(num1, num2));
+    //System.out.println("Modulus: " + modulus(num1, num2));
 
 
     } 
@@ -32,6 +32,15 @@ public class calc {
 
     public static double multiplication(double a, double b){
         return a * b;
+    }
+
+    public static double division(double a, double b){
+        if(b==0){
+            System.out.println("Cannot divide by 0");
+            return 0;
+        } else {
+            return a/b;
+        }
     }
 
 }
