@@ -30,7 +30,9 @@ public class calc {
         return a - b;
     }
 
-
+    public static double multiplication(double a, double b){
+        return a * b;
+    }
 
 }
 
