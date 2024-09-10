@@ -20,6 +20,10 @@ public class calc {
 
 
     } 
-    //Methods Here
+    //Method
+
+    public static double addition(double a, double b){
+        return a + b;
+    }
 }
 
